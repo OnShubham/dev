@@ -5,6 +5,15 @@ export default function Home() {
     <div className="p-4 flex justify-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <Card
+          imgSrc="/img/5.png"
+          title="Productivity - Pomodoro"
+          description="Tech : React.js | ShadCn | Tailwind CSS "
+          live="https://pomodoro-5yx80egym-shubham-kharches-projects.vercel.app/"
+          livetext=" Deploy "
+          git="https://github.com/OnShubham/pomodoro_web"
+          gittext="GitHub"
+        />
+        <Card
           imgSrc="/img/1.png"
           title="Left Over Food Recommedation"
           description="Tech : React.js | Node.js | Express.js | MongoDb | Python "
